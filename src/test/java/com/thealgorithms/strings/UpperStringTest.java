@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class UpperStringTest{
     @Test
     public void toUpperCase1() {
-		//Partition for having space 
+	//Partition for having space 
         String str1 = "sOfTware TEstinG";
         assertEquals("SOFTWARE TESTING", Upper.toUpperCase(str1));
     }
